@@ -16,14 +16,15 @@
     text-decoration: none;
     text-transform: capitalize;
     transition: .2s linear;
+    scroll-behavior: smooth;
 }
 
-html{
+/* html{
     font-size: 62.5%;
     overflow-x: hidden;
     scroll-padding-top: 9rem;
     scroll-behavior: smooth;
-}
+} */
 
 
 html::-webkit-scrollbar{
@@ -69,9 +70,9 @@ section{
     color:#fff;
     text-transform: uppercase;
 }  
-
-
-
+.spot{
+    padding: 30px;
+}
 .spot .box-container .box:hover{
     background:#fff;
     color:var(--black);
