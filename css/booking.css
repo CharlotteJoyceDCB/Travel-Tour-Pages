@@ -150,7 +150,7 @@ i{
         width: 90%;
         margin-top: 0;
     } 
-    .booking-container, .booking-row, .form-group, .guest-detail, .check-in-out, .destination-adults-children, .booking-weather{
+    .booking-container, .booking-row, .form-group, .guest-detail, .check-in-out, .destination-adults-children{
         flex-direction: column;
         width: 100%;
     }
