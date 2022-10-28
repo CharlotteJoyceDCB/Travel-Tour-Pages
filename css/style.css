@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,600;1,700;1,800;1,900&display=swap');
+:root{
+    --main-color:#d3ad7f;
+    --black:#13131a;
+    --bg: rgb(92, 67, 235); 
+    --border:.1rem solid rgba(224, 213, 213, 0.3);
+}
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+body{
+    background: #151516;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+}
+/* section{
+    padding: 100px 200px;
+} */
+/* .container{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+} */
+/*============================================================ NAVIGATION BAR ==========================================================*/
+.navbar{
+    -webkit-backdrop-filter: blur(8px);
+    backdrop-filter: blur(8px);
+    transition: 0.5s ease-out;
+    padding: 15px 0;
+}
+.navbar .navbar-brand img{
+    width: 160px;
+    height: 40px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+.navbar .navbar-nav li{
+    padding: 0 10px;
+}
+.navbar .navbar-nav li .nav-link{
+    font-size: 15px;
+    font-weight: 500;
+    color: #ffffff;
+    transition: all 0.3s ease;
+}
+.navbar .navbar-nav li:hover .nav-link{
+    color: #008aff;
+    background-color: #292929;
+}
+.navbar .navbar-toggler{
+    border-radius: 0;
+    border: 0;
+}
+.navbar .navbar-toggler i{
+    font-size: 28px;
+}
+.navbar .navbar-toggler:focus{
+    outline: 0;
+}
+.navbar.navbar-fixed{
+    background: #fff;
+    transition: 0.5s ease-out;
+}
+section{
+    padding: 4.5rem 0 1.5rem;
+}
+/*============================================================ HOME SECTION ============================================================*/
+.home{
+    display: flex;
+    position: relative;
+    width: 100%;
+    max-width: 1920px;
+    height: 100%;
+    justify-content: center;
+    flex-direction: column;
+}
+.contents {
+    width: 100%;
+    min-height: 640px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    background: lightgrey;
+
+}
+.contents img {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    object-position: center;
+    z-index: -1;
+}
+
+.destination{
+    width: 100%;
+    background-color: #000000;
+    padding: 30px;
+    max-height: max-content;
+    overflow: hidden;
+}
+.destination-title{
+    font-family: 'Poppins';
+    color: #fff;
+    font-size: 36px;
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+.destination img{
+    display: block;
+    object-fit: fill;
+}
+.destination .content p{
+    position: absolute;
+    display: block;
+}
+/* Newsletter Subscription Form */
+button{
+    font-size: 16px;
+}
+button:focus {
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    outline-width: 0
+}
+.input-group-lg>.custom-select, .input-group-lg>.form-control:not(textarea) {
+    height: 2rem; 
+}
+input::-webkit-input-placeholder {
+    padding-left: 5px !important;
+  }
+input::placeholder {
+    text-align: left;
+    font-size: 20x;
+}
+input:focus {
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    outline-width: 0
+}
+/* Footer Contents */
+footer{
+    background: #2c2d31;
+    padding: 20px 20px 20px;
+    align-items: center;
+}
+footer .content{
+    align-items: center;
+}
+footer h5{
+    color: #fff;
+}
+footer p{
+    color: #707070;
+}
+footer ul li{
+    list-style-type: none;
+}
+footer .content a{
+    text-decoration: none;
+    text-align: left;
+    color: #707070;
+}
+footer .content a:hover{
+    color: rgb(0, 94, 255);
+}
+footer i{
+    font-size: 20px;
+}
+/* Copyright/Author Contents */
+.copyright{
+    background-color: #2c2d31;
+    text-align: center;
+    align-items: center;
+    padding: 15px 0 15px;
+    border-top: 1px solid rgb(89, 88, 88);
+}
+.copyright p{
+    color: #fff;
+    font-family: "Poppins";
+    font-weight: 300;
+    align-items: center;
+    text-align: center;
+    margin: 0;
+}
+
